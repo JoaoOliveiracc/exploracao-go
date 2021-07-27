@@ -16,7 +16,7 @@ type produto struct {
 	preco float64
 }
 
-// iterfaces são implementadas implicitamente
+// iterfaces s�o implementadas implicitamente
 func (p pessoa) toString() string {
 	return p.nome + " " + p.sobrenome
 }
@@ -34,5 +34,7 @@ func main() {
 	fmt.Println(coisa.toString())
 	imprimir(coisa)
 
-	coisa = produto{}
+	coisa = produto{"Calça jeans", 79.90}
+	p2 := produto{"Calça Jeans", 179.90}
+	imprimir(p2)
 }
