@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"html"
 )
 
 func encaminhar(origem <-chan string, destino chan string) {
