@@ -13,7 +13,7 @@ type luxuoso interface {
 type esportivoLuxuoso interface {
 	esportivo
 	luxuoso
-	// pode-se adicionar mais métodos
+	// pode-se adicionar mais mï¿½todos
 }
 
 type bmw7 struct{}

@@ -1,13 +1,13 @@
-// Programas execut·veis iniciam pelo pacote main
+// Programas execut√°veis iniciam pelo pacote main
 package main
 
 /*
-	Os cÛdigos em Go s„o organizados em pacotes
-	e para us·-los È necess·rio declarar um ou v·rios imports
+	Os c√≥digos em Go s√£o organizados em pacotes
+	e para us√°-los √© necess√°rio declarar um ou v√°rios imports
 */
 import "fmt"
 
-// A porta de entrada de um programa Go È a funÁ„o main
+// A porta de entrada de um programa Go √° a fun√ß√£o main
 func main() {
 	fmt.Print("Primeiro ")
 	fmt.Print("programa")

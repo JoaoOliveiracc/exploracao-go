@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-const msgIndex = "%s (parte: %s) - Õndices: esperado (%d) <> encontrado (%d)."
+const msgIndex = "%s (parte: %s) - √çndices: esperado (%d) <> encontrado (%d)."
 
 func TestIndex(t *testing.T) {
 	t.Parallel()
@@ -17,7 +17,7 @@ func TestIndex(t *testing.T) {
 		{"Explorando Go", "Go", 0},
 		{"", "", 0},
 		{"Opa", "Opa", -1},
-		{"Jo„o", "o", 2},
+		{"Jo√£o", "o", 2},
 	}
 
 	for _, teste := range testes {
